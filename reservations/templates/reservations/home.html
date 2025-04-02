@@ -1,10 +1,11 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Tervetuloa Booking Calendar{% endblock %}</title>
+
     <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 
@@ -32,6 +33,9 @@
 
     <h2>Rekisteröidy</h2>
     <p><a href="{% url 'register' %}">Uusi</a></p>
+
+
+
 </body>
 </html>
 

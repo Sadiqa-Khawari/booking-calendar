@@ -1,13 +1,15 @@
 {% load static %}
+{% block content %}
+
 <!DOCTYPE html>
 <html lang="fa">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
     <h2>Kirjaudu sisään</h2>
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit">Kirjaudu</button>
-        
-
     </form>
-
-</html>   
+</html>
+  
+{% endblock %}
