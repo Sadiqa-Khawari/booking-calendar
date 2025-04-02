@@ -1,10 +1,10 @@
 .button {
-    background-color: rgb(240, 101, 240);
+    background-color: rgb(135, 244, 252);
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #f882db;
     margin: 0;
     padding: 20px;
 }
@@ -19,9 +19,49 @@ body {
     align-self: flex-start;
 }
 
-h1 {
-    color: #333;
+.logout-card {
+    display: flex;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    align-items: center;
+    align-items: flex-start;
 }
-h2 {
-    color: #555;
+
+.register-container {
+    background-color:chartreuse;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+
 }
+
+.register-column {
+    min-width: 250px;
+    background-color:rgb(163, 197, 240);
+    border-radius : 8px;
+    padding: 10px;
+    flex: 1;
+}
+
+
+.register-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+  }
+
+.register-detail {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+ 
